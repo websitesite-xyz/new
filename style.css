@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.top-left {
+    background-color: tomato;
+}
+
+.top-right {
+    background-color: forestgreen;
+    left: 50%;
+}
+
+.bottom-left {
+    background-color: dodgerblue;
+    top: 50%;
+}
+
+.bottom-right {
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+}
